@@ -1,8 +1,11 @@
 package ku.cs.kafe.service;
 
 
+import jakarta.validation.Valid;
 import ku.cs.kafe.entity.Member;
+import ku.cs.kafe.request.SignupRequest;
 import ku.cs.kafe.repository.MemberRepository;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -20,19 +23,20 @@ public class SignupService {
     private PasswordEncoder passwordEncoder;
 
 
+    @Autowired
+    private ModelMapper modelMapper;
+
+
     public boolean isUsernameAvailable(String username) {
         return repository.findByUsername(username) == null;
     }
 
 
-    public void createUser(Member user) {
-        Member record = new Member();
-        record.setName(user.getName());
-        record.setUsername(user.getUsername());
+    public void createUser(SignupRequest request) {
+        Member record = modelMapper.map(request, Member.class);
         record.setRole("ROLE_USER");
 
-
-        String hashedPassword = passwordEncoder.encode(user.getPassword());
+        String hashedPassword = passwordEncoder.encode(request.getPassword());
         record.setPassword(hashedPassword);
 
 
@@ -43,4 +47,5 @@ public class SignupService {
     public Member getUser(String username) {
         return repository.findByUsername(username);
     }
+
 }
