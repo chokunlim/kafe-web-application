@@ -62,6 +62,9 @@ public class SecurityConfig {
         return (web) -> web.ignoring()
                 .requestMatchers(new AntPathRequestMatcher("/h2-console/**"));
     }
+
+
+
 }
 
 
