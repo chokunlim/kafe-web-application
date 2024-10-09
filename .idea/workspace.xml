@@ -5,28 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25319d13-7bb7-4b71-a97d-0f08ac77882c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/common/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/AdminOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/OrderItemKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/PurchaseOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/repository/OrderItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/repository/PurchaseOrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/request/AddCartRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/resources/templates/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/resources/templates/menu-view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/resources/templates/order-all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/resources/templates/order-view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/ErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafe/src/main/resources/templates/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/AdminOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/AdminOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/resources/application-dev.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafe/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafe/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafe/src/main/resources/templates/menu-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/resources/templates/menu-all.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,19 +64,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\qupur\Desktop\kafe-web-application\kafe\src\main\resources\templates" />
       <recent name="C:\Users\qupur\Desktop\kafe-web-application\kafe\src\main\resources\templates\fragments" />
       <recent name="C:\Users\qupur\Desktop\kafe\kafe\src\main\resources\static" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.KafeApplication">
     <configuration name="KafeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <envs>
-        <env name="SPRING_DATASOURCE_URL" value="jdbc:h2:mem:kafe" />
-        <env name="SPRING_DATASOURCE_USERNAME" value="your-username" />
-        <env name="SPRING_DATASOURCE_PASSWORD" value="your-password" />
-      </envs>
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="kafe" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
       <option name="SPRING_BOOT_MAIN_CLASS" value="ku.cs.kafe.KafeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,6 +89,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.hebKafeApplication" />
+      <item itemvalue="Spring Boot.KafeApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -129,7 +117,7 @@
       <workItem from="1728365010350" duration="2812000" />
       <workItem from="1728369044225" duration="297000" />
       <workItem from="1728468121246" duration="1845000" />
-      <workItem from="1728470209393" duration="2319000" />
+      <workItem from="1728470209393" duration="5261000" />
     </task>
     <servers />
   </component>
