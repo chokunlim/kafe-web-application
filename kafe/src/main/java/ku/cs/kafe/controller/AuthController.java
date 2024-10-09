@@ -1,5 +1,9 @@
 package ku.cs.kafe.controller;
 
+/**
+ * Name: Puri Limwongrujirat
+ * Student ID: 6510450844
+ */
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;

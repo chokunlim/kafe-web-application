@@ -1,5 +1,9 @@
 package ku.cs.kafe.entity;
 
+/**
+ * Name: Puri Limwongrujirat
+ * Student ID: 6510450844
+ */
 
 import jakarta.persistence.*;
 import lombok.Data;

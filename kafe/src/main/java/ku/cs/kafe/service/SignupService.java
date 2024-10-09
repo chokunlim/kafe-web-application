@@ -1,7 +1,10 @@
 package ku.cs.kafe.service;
 
+/**
+ * Name: Puri Limwongrujirat
+ * Student ID: 6510450844
+ */
 
-import jakarta.validation.Valid;
 import ku.cs.kafe.entity.Member;
 import ku.cs.kafe.request.SignupRequest;
 import ku.cs.kafe.repository.MemberRepository;

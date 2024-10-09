@@ -5,12 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25319d13-7bb7-4b71-a97d-0f08ac77882c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/ErrorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafe/src/main/resources/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/KafeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/KafeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/common/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/common/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/config/ComponentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/config/ComponentConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/AdminOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/AdminOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafe/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/ErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/ErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/controller/SignupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/OrderItemKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/OrderItemKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/PurchaseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/entity/PurchaseOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/repository/MenuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/repository/MenuRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/repository/OrderItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/repository/OrderItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/repository/PurchaseOrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/repository/PurchaseOrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/request/AddCartRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/request/AddCartRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/request/CategoryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/request/CategoryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/request/MenuRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/request/MenuRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/request/SignupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/SignupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/SignupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/UserDetailsServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/java/ku/cs/kafe/service/UserDetailsServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafe/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/kafe/src/main/resources/templates/fragments/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +143,7 @@
       <workItem from="1728365010350" duration="2812000" />
       <workItem from="1728369044225" duration="297000" />
       <workItem from="1728468121246" duration="1845000" />
-      <workItem from="1728470209393" duration="5261000" />
+      <workItem from="1728470209393" duration="5574000" />
     </task>
     <servers />
   </component>
